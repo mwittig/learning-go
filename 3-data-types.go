@@ -36,7 +36,7 @@ func main() {
 
     // The compiler does strict type checking. So, we need to use cast operators
     // to cast between different types. Surprisingly, if there is an overflow
-    // for a number type coversion, no error will be thrown. Seems like some
+    // for a number type conversion, no error will be thrown. Seems like some
     // of the bad things have also been derived from ancient C. See also
     // https://github.com/golang/go/issues/19624
     var n1 float64 = 748375347509347587348957348920.0
